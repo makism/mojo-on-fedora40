@@ -35,6 +35,9 @@ tar -xf data.tar.gz
 #### Install Mojo
 ```
 export LD_LIBRARY_PATH=/opt/mojo-deps/lib/x86_64-linux-gnu:/opt/mojo-deps/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
+
+modular auth
+
 modular install mojo
 
 echo 'export MODULAR_HOME="/home/$USERNAME/.modular"' >> ~/.zshrc                             
