@@ -17,19 +17,19 @@ cd /opt/mojo-deps/
 ```
 wget https://ftp.debian.org/debian/pool/main/n/ncurses/libncurses6_6.4-4_amd64.deb
 ar -xv libncurses6_6.4-4_amd64.deb
-tar -xf data.tar.gz
+tar -xf data.tar.xz
 ```
 
 ```
 wget https://ftp.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.4-4_amd64.deb
 ar -xv libtinfo6_6.4-4_amd64.deb
-tar -xf data.tar.gz
+tar -xf data.tar.xz
 ```
 
 ```
 wget https://ftp.debian.org/debian/pool/main/libe/libedit/libedit2_3.1-20221030-2_amd64.deb
 ar -xv libedit2_3.1-20221030-2_amd64.deb
-tar -xf data.tar.gz
+tar -xf data.tar.xz
 ```
 
 #### Install Mojo
